@@ -14,7 +14,7 @@
 
 | Nama                 | yang_di_uji | Description |       
 | :------------------- | :---------- | :---------- |
-| Muhammad Ramdhani | login       |     |
+| --- | login       |     |
 
 | Nama              | yang_di_uji             | Description |
 | :---------------- | :---------------------- | :---------- |
@@ -22,7 +22,7 @@
 
 | Nama              | yang_di_uji                         | Description |
 | :---------------- | :---------------------------------- | :---------- |
-| ------------------| Search | -------------  |
+| Muhammad Ramdhani| Search | -------------  |
 
 | Nama         | Yang_di_uji                  | Description |
 | :----------- | :--------------------------- | :---------- |
