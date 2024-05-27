@@ -14,11 +14,7 @@
 
 | Nama                 | yang_di_uji | Description |       
 | :------------------- | :---------- | :---------- |
-<<<<<<< HEAD
 | --- | login       |     |
-=======
-| Muhammad Ramdhani |       |     |
->>>>>>> 9768a2a2eab14a293c674338d84014d27e7660f0
 
 | Nama              | yang_di_uji             | Description |
 | :---------------- | :---------------------- | :---------- |
