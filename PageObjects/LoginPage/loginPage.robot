@@ -1,8 +1,8 @@
 *** Settings ***
-Documentation        Segala hal yg berkaitan dengan login
+Documentation        All about login page
 Resource             ../base.robot
 Resource             ../HomePage/homePage.robot
-Variables            login-page-locators.yaml
+Variables            login-locators.yaml
 
 *** Keywords ***
 Input Username
@@ -10,7 +10,7 @@ Input Username
     Wait Until Element Is Visible    locator=${username_input}
     Input Text                       locator=${username_input}         text=${username}
 
-Input User Password
+Input Password Users
     [Arguments]                      ${password}
     Input Text                       locator=${password_input}         text=${password}
 
@@ -19,8 +19,11 @@ Click Sign In Button On Login Screen
 
 Login With Valid Credential
     [Arguments]                ${username}   ${password}
-    Verify Home Screen Appears
-    Click Sign In Button On Home Screen
+    Verify Home Page Appears
+    Click Sign In Button On Home Page
     Input Username        username=${username}
-    Input User Password    password=${password}
-    Click Sign In Button On Login Screen
+    Input Password Users    password=${password}
+    Click Sign In Button On Login Page
+
+Notification Failed Login
+    Wait Until Page Contains               Invalid username/password

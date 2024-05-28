@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation        Segala hal yg berkaitan dengan homepage
+Documentation        All about home page
 Resource             ../base.robot
 
 
