@@ -14,7 +14,8 @@ Input Password Users
     [Arguments]                      ${password}
     Input Text                       locator=${password_input}         text=${password}
 
-Click Sign In Button On Login Screen
+
+Click Sign In Button On Login Page
     Click Element                    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
 
 Login With Valid Credential
