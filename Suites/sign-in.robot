@@ -10,7 +10,7 @@ Test Teardown       Close Flight Application
 ${VALID_USERNAME}            support@ngendigital.com
 ${VALID_PASSWORD}            abc123
 ${INVALID_USERNAME}          invalidmail@gmail.com
-${IVALID_PASSWORD}           test12345
+${INVALID_PASSWORD}           test12345
 
 *** Keywords ***
 # untuk mendefinisikan keyword

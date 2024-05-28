@@ -4,10 +4,10 @@ Resource             ../base.robot
 
 
 *** Keywords ***
-Verify Home Screen Appears
+Verify Home Page Appears
     Element Should Be Visible        locator=//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]
 
-Click Sign In Button On Home Screen
+Click Sign In Button On Home Page
     Click Element                    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/login"]
 
 
