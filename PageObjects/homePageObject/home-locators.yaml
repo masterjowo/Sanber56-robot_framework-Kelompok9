@@ -1,0 +1,6 @@
+sign-in-button: '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'
+logo_homePage: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]'
+
+logo_home: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]'
+tombol_Sign_In_home: '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'
+verivikasi_login: "com.example.myapplication:id/textView"
