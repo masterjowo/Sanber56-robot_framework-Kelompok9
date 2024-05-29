@@ -1,0 +1,5 @@
+tombol_search: '//android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]'
+verivikasi_search: '//android.widget.TextView[@resource-id="com.example.myapplication:id/enterFlight"]'
+form_input: '//android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]'
+tombol_cari_pada_search: '//android.widget.Button[@resource-id="com.example.myapplication:id/searchFlight"]'
+menamilkan_data_yang_dicari: '//android.widget.TextView[@text="DA 935"]'
